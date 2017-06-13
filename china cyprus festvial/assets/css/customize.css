@@ -26,3 +26,23 @@
 	color: rgba(254,82,76, 1);;
 	font-weight: bold;
 }
+#event-location {
+	height:320px;
+	display: flex;
+	align-items: center;
+}
+
+.vertical-center {
+	margin: 0 auto;
+}
+
+#empty-space {
+	height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+	#team .col-md-12.col-lg-6 iframe {
+		width: 100%;
+	}
+	
+}
