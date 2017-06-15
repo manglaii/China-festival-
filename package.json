@@ -1,0 +1,26 @@
+{
+  "name": "china-festival",
+  "version": "1.0.0",
+  "description": "the event of chinese festival",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manglaii/China-festival-.git"
+  },
+  "keywords": [
+    "event",
+    "china"
+  ],
+  "author": "PTT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manglaii/China-festival-/issues"
+  },
+  "homepage": "https://github.com/manglaii/China-festival-#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
