@@ -176,6 +176,9 @@ $(function() {
                 }, {
                     duration: 2000,
                     easing: 'swing',
+                    step: function() {
+                        $this.text(Math.ceil(this.Counter));
+                    }
                 });
             });
             $(this).off('inview');
