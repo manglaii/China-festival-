@@ -1,5 +1,4 @@
 body {
-	padding-top: 5em;
 	background: url("../../assets/images/body_img.jpg");
 }
 
@@ -21,27 +20,14 @@ body {
 	height: 300px;
 }
 
-.navbar.navbar-default.navigation-clean.navbar-fixed-top {
-	height: 5em;
+header#intro-carousel {
+	z-index: -1;
 }
 
-.navbar.navbar-default.navigation-clean.navbar-fixed-top .container {
-	margin-top: 0.5em;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-	color: rgba(254,82,76, 1);
-}
-.navbar-default .navbar-nav>li>a{
-	font-size: 1.2em;
-}
-
-.navbar-brand.navbar-link {
-	font-size: 2.2em;
-	color: rgba(254,82,76, 1);;
-	font-weight: bold;
-}
-
+.navbar-nav {
+    margin: -0.5px -15px;
+ }
+ 
 #event-location {
 	display: flex;
 	align-items: center;
