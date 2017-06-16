@@ -57,6 +57,14 @@ section#services {
     background: rgba(255,255,255,0.8);
 }
 
+.navbar.navbar-default.navigation-clean.navbar-fixed-top {
+	will-change: transform;
+}
+
+
+.nav.pull-right.scroll-top {
+	will-change: transform;
+}
 #map, #contact {
 	background: rgba(255,255,255,0.6);
 }
