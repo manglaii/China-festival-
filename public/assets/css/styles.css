@@ -22,7 +22,6 @@ video {
 	position: absolute;
 	right: 1%;
 	bottom: 1%;
-	z-index: 9999;
 }
 
 .glyphicon {
@@ -33,4 +32,8 @@ video {
 	border: 0px solid transparent;
 	background-color: transparent;
 	margin-top: 5px;
+}
+.navbar.navbar-default.navbar-fixed-top.navigation-clean-button {
+	will-change: transform;
+	z-index: 999;
 }
