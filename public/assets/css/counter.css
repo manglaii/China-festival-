@@ -1,0 +1,40 @@
+h1, h2, h3, h4, h5, h6 {
+  margin:0 0 20px 0;
+  text-transform:none;
+  color:rgba(254,82,76, 1);
+  font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:600;
+  letter-spacing:1px;
+  line-height:1.5;
+}
+
+.content-section {
+  padding:100px 0;
+}
+
+.text-center {
+  text-align:center;
+}
+
+
+.counter-section strong {
+  display:block;
+  font-weight:600;
+  font-size:60px;
+  line-height:48px;
+  color:#fff;
+}
+
+span.count-description {
+  display:block;
+  color:#fff;
+  font-size:20px;
+  line-height:40px;
+  text-transform:capitalize;
+  padding-top:10px;
+}
+
+.counter-wrap {
+  padding:50px 0;
+}
+

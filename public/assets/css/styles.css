@@ -1,0 +1,36 @@
+video {
+	height: 100%;
+	width: 100%;
+}
+
+#video {
+	padding-top: 70px;
+	/*filter: blur(3px);*/
+}
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0 -15px;;
+}
+
+.container-fluid .col-lg-12.col-md-12.col-sm-12{
+	position: relative;
+}
+#video-control {
+	height: 70px;
+	width: 200px;
+	position: absolute;
+	right: 1%;
+	bottom: 1%;
+	z-index: 9999;
+}
+
+.glyphicon {
+	color: lightblue;
+}
+
+#video-control button {
+	border: 0px solid transparent;
+	background-color: transparent;
+	margin-top: 5px;
+}
