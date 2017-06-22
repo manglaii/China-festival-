@@ -1,67 +1,99 @@
-body {
-	background-image: url(../img/body-img.jpg);
-}
-
 video {
-	height: 100%;
-	width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 #video {
-	padding-top: 70px;
-	/*filter: blur(3px);*/
-}
-.container-fluid {
-	padding-left: 0px;
-	padding-right: 0px;
-	margin: 0 -15px;;
+    background-color: black;
+    position: relative;
 }
 
-.container-fluid .col-lg-12.col-md-12.col-sm-12{
-	position: relative;
+@media (max-width:1199px) {
+    #video {
+        margin-top: 70px;
+    }
 }
+
+@media (min-width:1200px) {
+    #video {
+        margin-top: -40px;
+    }
+    .carousel-inner .item {
+        max-height: 500px !important;
+    }
+    
+    footer h2 {
+		font-size: 3em;
+	}
+}
+
+/*iphone 5*/
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	#map iframe {
+		height: 200px;
+	}
+	#map {
+	    padding: 100px 0;
+	}
+    footer h2 {
+		font-size: 1em;
+	}
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	#map iframe {
+		height: 200px;
+	}
+    footer h2 {
+		font-size: 1.5em;
+	}
+}
+
+#video > div {
+    position: relative;
+}
+
+#map {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#event {
+    padding-top: 5%;
+}
+
 #video-control {
-	height: 70px;
-	width: 200px;
-	position: absolute;
-	right: 1%;
-	bottom: 1%;
+    height: 3em;
+    width: 5em;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
 }
 
 .glyphicon {
-	color: lightblue;
+    color: lightblue;
 }
 
 #video-control button {
-	border: 0px solid transparent;
-	background-color: transparent;
-	margin-top: 5px;
+    border: 0px solid transparent;
+    background-color: transparent;
+    margin-top: 5px;
 }
-.navbar.navbar-default.navbar-fixed-top.navigation-clean-button {
+.navbar.navbar-default.navbar-fixed-top.navigation-clean{
 	will-change: transform;
-	z-index: 999;
 }
 
-#map > .container {
-	padding: 200px 0;
+#overview h1 {
+	font-size: 2.5em;
 }
 
-#map .row {
-	height: 100%;
+#overview h3 {
+	font-size: 1.5em;
 }
 
-#event-location > div {
-	height: 300px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+#overview p {
+	font-size: 1.2em;
 }
 
-.text-center:nth-child(2){
-	padding-bottom: 20px;
-}
-
-#gallery, #event, #map, #contact{
-	background-color: rgba(255, 255, 255, 0.9);
-}
