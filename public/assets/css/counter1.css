@@ -7,12 +7,7 @@
 
   #counter .counter-wrap {
     font-size: 3em;
-    color: red;
     padding: 40px 0;
-  }
-
-  #counter h1 {
-    color: red;
   }
 
   footer{
@@ -41,7 +36,7 @@
 
   footer{
     background-color: lightgrey;
-    height: 335px;
+    height: 210px;
     padding-bottom: 50px;
   }
 
@@ -120,10 +115,12 @@
   .photo-gallery .item:first-child {
       height: 421px;
   }
+
+  #event
   .carousel,
   .item,
   .active {
-      height: 325px;
+      height: 467px;
   }
 
   #map iframe {
