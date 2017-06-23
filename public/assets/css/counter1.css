@@ -3,13 +3,9 @@
 }
 
 @media (min-width:1200px) {
-  #counter {
-    padding: 100px 0;
-  }
 
   #counter h1 {
     font-size: 4em;
-    padding: 40px 0;
   }
 
   #counter .counter-wrap {

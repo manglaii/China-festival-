@@ -25,6 +25,14 @@ video {
     footer h2 {
 		font-size: 3em;
 	}
+
+    #event p {
+        font-size: 1.3em;
+    }
+
+    #event a {
+        font-size: 1.3em;
+    }
 }
 
 /*iphone 5*/
@@ -97,3 +105,10 @@ video {
 	font-size: 1.2em;
 }
 
+#overview article {
+    font-size: 1.1em;
+    color: white;
+}
+.navbar.navbar-default.navbar-fixed-top.navigation-clean a {
+    color: rgb(252,247,41);
+}
