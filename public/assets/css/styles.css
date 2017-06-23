@@ -2,6 +2,10 @@ body {
     background-image: url('../img/body-img.jpg');
 }
 
+.nav.navbar-nav.navbar-right {
+    z-index: 1030;
+}
+
 video {
     height: 100%;
     width: 100%;
