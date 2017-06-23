@@ -1,6 +1,3 @@
-#counter {
-  background-color: black;
-}
 
 @media (min-width:1200px) {
 
@@ -10,13 +7,17 @@
 
   #counter .counter-wrap {
     font-size: 3em;
-    color: white;
+    color: red;
     padding: 40px 0;
   }
 
+  #counter h1 {
+    color: red;
+  }
+
   footer{
-    background-color: lightgrey;
-    height: 335px;
+    background-color: black;
+    height: 200px;
     padding-bottom: 50px;
   }
 

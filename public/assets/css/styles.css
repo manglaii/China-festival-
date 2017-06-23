@@ -1,3 +1,7 @@
+body {
+    background-image: url('../img/body-img.jpg');
+}
+
 video {
     height: 100%;
     width: 100%;
@@ -32,6 +36,14 @@ video {
 
     #event a {
         font-size: 1.3em;
+    }
+
+    #sponsor {
+        padding: 50px 0;
+    }
+
+    #overview {
+        padding-top: 50px;
     }
 }
 
@@ -107,8 +119,12 @@ video {
 
 #overview article {
     font-size: 1.1em;
-    color: white;
+    color: black;
 }
 .navbar.navbar-default.navbar-fixed-top.navigation-clean a {
     color: rgb(252,247,41);
+}
+
+#overview, #gallery, #map, #event, #counter{
+     background: rgba(255, 255, 255, .8);
 }
