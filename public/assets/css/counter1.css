@@ -17,55 +17,6 @@
   }
 
 }
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  #counter {
-    padding: 50px 0;
-  }
-
-  #counter h1 {
-    font-size: 3em;
-    padding: 10px 0;
-  }
-
-  #counter .counter-wrap {
-    font-size: 2.5em;
-    color: white;
-    padding: 20px 0;
-  }
-
-  footer{
-    background-color: lightgrey;
-    height: 210px;
-    padding-bottom: 50px;
-  }
-
-}
-
-/* Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-
-  #counter {
-    padding: 10px 0;
-  }
-
-  #counter h1 {
-    font-size: 3em;
-    padding: 5px 0;
-  }
-
-  #counter .counter-wrap {
-    font-size: 2.5em;
-    color: white;
-    padding: 10px 0;
-  }
-
-  footer{
-    background-color: lightgrey;
-    height: 335px;
-    padding-bottom: 50px;
-  }
-}
 
 /*iphone 7*/
 /*landscape*/
