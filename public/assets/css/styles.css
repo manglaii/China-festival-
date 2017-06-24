@@ -16,6 +16,17 @@ video {
     position: relative;
 }
 
+#video > div {
+    position: relative;
+}
+
+#video p{
+    position: absolute;
+    color: gold;
+    text-align: center;
+    margin-left: 5%;
+}
+
 @media (max-width:1199px) {
     #video {
         margin-top: 70px;
@@ -129,14 +140,36 @@ video {
     color: rgb(252,247,41);
 }
 
-#overview, #gallery, #map, #event, #counter{
+#overview, #gallery, #map, #event{
      background: rgba(255, 255, 255, .8);
 }
 
+#counter {
+    background-color: rgb(218,90,90); 
+}
+
 #counter h1 {
-    color: red;
+    color: rgb(252,247,41);
 }
 
 #counter .counter-wrap {
-    color: red;
+    color: rgb(252,247,41);
+}
+
+#event p {
+    color: black;
+}
+
+#event h2 {
+    color: black;
+}
+
+#sponsor img {
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#carousel-1 img {
+    filter: blur(5px);
 }
