@@ -14,30 +14,61 @@
 }
 
 
-/* ----------- iPhone 5 and 5S ----------- */
+/*-----------------------------iphone 5 and iphone 5s--------------------------------*/
 
 
 /* Portrait */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    .photo-gallery h2 {
-        margin-bottom: 25px;
-        padding-top: 25px;
-        font-size: 24px;
+    #video {
+        padding-top: 70px;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 1em;
+        line-height: 100%;
     }
     .photo-gallery .item {
-        height: 125px;
+        height: 115px;
         padding: 5px;
     }
     .photo-gallery .item:first-child {
         height: 201px;
     }
-    .carousel-inner .item .active {
-        height: 108px;
+    .carousel-inner .item {
+        height: 233px;
     }
-
+    .carousel-caption h1 {
+        font-size: 2em;
+    }
+    .carousel-caption p {
+        line-height: 0.3em;
+        font-size: 0.6em;
+    }
+    .navbar-brand.navbar-link {
+        font-size: 1em !important;
+    }
     #carousel-1 div div .carousel-caption h3 {
         font-size: 1.5em;
+    }
+    #video-caption {
+        font-size: 0.8em;
+        top: 7%;
+    }
+    #counter h1 {
+        font-size: 1.5em;
+        /* padding: 10px 0; */
+    }
+    #myMap {
+        height: 180px;
     }
 }
 
@@ -57,55 +88,25 @@
     .photo-gallery .item:first-child {
         height: 307px;
     }
-    .carousel,
-    .item,
-    .active {
+    .carousel .item .active {
         height: 325px;
     }
-    
     #event {
         padding: 50px 0 0 0;
     }
-}
-/*iphone 6*/
-/* Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    .photo-gallery h2 {
-        margin-bottom: 25px;
-        padding-top: 25px;
-        font-size: 24px;
+    #video-caption {
+        font-size: 0.6em;
+        top: 25%;
     }
-    .photo-gallery .item {
-        height: 212px;
-        padding: 5px;
-    }
-    .photo-gallery .item:first-child {
-        height: 348px;
-    }
-    .carousel-inner .item{
-        height: 399px;
-    }
-  footer{
-    background-color: lightgrey;
-    height: 220px;
-    padding-bottom: 50px;
-  }
-    #map iframe {
-        height: 300px;
-    }
-    #video-caption{
-        font-size: 1.2em;
-        top: 6%;
+    .navbar-brand.navbar-link {
+        font-size: 1.5em !important;
     }
 }
 
-/* portrait */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    .photo-gallery h2 {
-        margin-bottom: 25px;
-        padding-top: 25px;
-        font-size: 24px;
-    }
+
+/*-----------------------------iphone 6 plus--------------------------------*/
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .photo-gallery .item {
         height: 129px;
         padding: 5px;
@@ -113,36 +114,145 @@
     .photo-gallery .item:first-child {
         height: 241px;
     }
-
-    .carousel-inner .item{
+    .carousel-inner .item {
         height: 265px;
     }
-
-    .carousel-caption h1{
+    .carousel-inner .item {
+        height: 265px;
+    }
+    .carousel-caption h1 {
         font-size: 2em;
     }
-
-    .carousel-caption p{
+    .carousel-caption p {
         line-height: 5px;
         font-size: 0.8em;
     }
-
-    #map iframe {
-        height: 300px;
+    #video-caption {
+        font-size: 1.1em;
+        top: 7%;
     }
-      footer{
+    .navbar-brand.navbar-link {
+        font-size: 1.3em !important;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .photo-gallery .item {
+        height: 244px;
+        padding: 7px;
+    }
+    .photo-gallery .item:first-child {
+        height: 382px;
+    }
+    .carousel-inner .item {
+        height: 265px;
+    }
+    .carousel-inner .item {
+        height: 380px;
+    }
+    .carousel-caption h1 {
+        font-size: 2em;
+    }
+    .carousel-caption p {
+        line-height: 17px;
+        font-size: 1em;
+    }
+    #video-caption {
+        font-size: 1.3em;
+        top: 20%;
+    }
+    .navbar-brand.navbar-link {
+        font-size: 1.5em !important;
+    }
+}
+
+
+/*-----------------------------iphone 6 and iphone 7--------------------------------*/
+
+
+/* portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .photo-gallery .item {
+        height: 129px;
+        padding: 5px;
+    }
+    .photo-gallery .item:first-child {
+        height: 241px;
+    }
+    .carousel-inner .item {
+        height: 288px;
+    }
+    .carousel-caption h1 {
+        font-size: 2em;
+    }
+    .carousel-caption p {
+        line-height: 7px;
+        font-size: 0.7em;
+    }
+    #myMap {
+        height: 210px;
+    }
+    footer {
         background-color: lightgrey;
         height: 220px;
         padding-bottom: 50px;
-      }
-
-    #video-caption{
-        font-size: 1.2em;
-        top: 15%;
+    }
+    #video-caption {
+        font-size: 1.1em;
+        top: 7%;
+    }
+    .navbar-brand.navbar-link {
+        font-size: 1em !important;
     }
 }
-/*ipad*/
+
+
 /* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .photo-gallery .item {
+        height: 212px;
+        padding: 5px;
+    }
+    .photo-gallery .item:first-child {
+        height: 348px;
+    }
+    .carousel-inner .item {
+        height: 399px;
+    }
+    footer {
+        background-color: lightgrey;
+        height: 220px;
+        padding-bottom: 50px;
+    }
+    #myMap {
+        height: 300px;
+    }
+    #video-caption {
+        font-size: 1.2em;
+        top: 22%;
+    }
+    #counter h1 {
+        font-size: 2em;
+        /* padding: 10px 0; */
+    }
+    .navbar-brand.navbar-link {
+        font-size: 1.5em !important;
+    }
+    #counter .counter-wrap {
+        font-size: 1.5em;
+        color: white;
+        /* padding: 20px 0; */
+    }
+}
+
+
+/*ipad*/
+
+
+/* Landscape */
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     .photo-gallery h2 {
         margin-bottom: 25px;
@@ -156,13 +266,14 @@
     .carousel .item .active {
         height: 400px;
     }
-
     #map iframe {
         height: 400px;
     }
 }
 
+
 /*portrait*/
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .photo-gallery h2 {
         margin-bottom: 25px;
@@ -176,111 +287,66 @@
     .carousel .item .active {
         height: 400px;
     }
-
     #map iframe {
         height: 400px;
     }
 }
 
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  #counter {
-    /* padding: 0px 0; */
-  }
 
-  #counter h1 {
-    font-size: 2em;
-    /* padding: 10px 0; */
-  }
-
-  #counter .counter-wrap {
-    font-size: 1.5em;
-    color: white;
-    /* padding: 20px 0; */
-  }
-
-      .carousel-inner .item{
-        height: 235px;
-    }
-
-    .carousel-caption h1{
-        font-size: 1.5em;
-    }
-
-    .carousel-caption p{
-        line-height: 3px;
-        font-size: 0.6em;
-    }
-
-
-
-  footer{
-    background-color: lightgrey;
-    height: 210px;
-    padding-bottom: 50px;
-  }
-
-}
-
-/* Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-
-  #counter {
-    padding: 10px 0;
-  }
-
-  #counter h1 {
-    font-size: 3em;
-    padding: 5px 0;
-  }
-
-      .carousel-inner .item{
-        height: 337px;
-    }
-
-    .carousel-caption h1{
-        font-size: 2em;
-    }
-
-    .carousel-caption p{
-        line-height: 10px;
-    }
-
-  #counter .counter-wrap {
-    font-size: 2.5em;
-    color: white;
-    padding: 10px 0;
-  }
-
-  footer{
-    background-color: lightgrey;
-    height: 335px;
-    padding-bottom: 50px;
-  }
-}
+/*-----------------------------laptop size--------------------------------*/
 
 
 /*min width 1200 laptop size*/
+
 @media (min-width:1200px) {
-    .photo-gallery .item {
-        height: 300px;
-        padding: 10px;
-    }
-    #map iframe {
-        height: 25em;
-    }
     #event-location {
-        height: 25em;
+        height: 350px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
-    .carousel-inner .item {
-        max-height: 500px !important;
+    #sponsor img {
+        height: 40%;
+        width: 40%;
+        margin: 0 auto;
     }
-    #video p{
-        font-size: 2em;
+    #video-caption {
+        font-size: 1.7em;
         top: 15%;
+    }
+    .photo-gallery .item {
+        height: 259px;
+        padding: 5px;
+    }
+    .carousel-inner .item {
+        height: 529px;
+    }
+    #video {
+        margin-top: -40px;
+    }
+    footer h2 {
+        font-size: 3em;
+    }
+    #event p {
+        font-size: 1.3em;
+    }
+    #event a {
+        font-size: 1.3em;
+    }
+    #sponsor {
+        padding: 50px 0;
+    }
+    #overview {
+        padding-top: 50px;
+    }
+    #myMap {
+        height: 350px;
     }
 }
 

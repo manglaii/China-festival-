@@ -27,72 +27,14 @@ video {
     margin-left: 5%;
 }
 
-@media (max-width:1199px) {
-    #video {
-        margin-top: 70px;
-    }
-}
-
-@media (min-width:1200px) {
-    #video {
-        margin-top: -40px;
-    }
-    .carousel-inner .item {
-        max-height: 500px !important;
-    }
-    
-    footer h2 {
-		font-size: 3em;
-	}
-
-    #event p {
-        font-size: 1.3em;
-    }
-
-    #event a {
-        font-size: 1.3em;
-    }
-
-    #sponsor {
-        padding: 50px 0;
-    }
-
-    #overview {
-        padding-top: 50px;
-    }
-}
-
-/*iphone 5*/
-/* Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-	#map iframe {
-		height: 200px;
-	}
-	#map {
-	    padding: 155px 0;
-	}
-    footer h2 {
-		font-size: 1em;
-	}
-}
-
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-	#map iframe {
-		height: 200px;
-	}
-    footer h2 {
-		font-size: 1.5em;
-	}
-}
 
 #video > div {
     position: relative;
 }
 
 #map {
-	padding-top: 5%;
-	padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #event {
@@ -117,24 +59,17 @@ video {
     margin-top: 5px;
 }
 .navbar.navbar-default.navbar-fixed-top.navigation-clean{
-	will-change: transform;
+    will-change: transform;
 }
 
-#overview h1 {
-	font-size: 2.5em;
-}
-
-#overview h3 {
-	font-size: 1.5em;
-}
-
-#overview p {
-	font-size: 1.2em;
-}
 
 #overview article {
     font-size: 1.1em;
     color: black;
+}
+
+#overview article p {
+    text-indent: 25px;
 }
 .navbar.navbar-default.navbar-fixed-top.navigation-clean a {
     color: rgb(252,247,41);
@@ -164,12 +99,9 @@ video {
     color: black;
 }
 
-#sponsor img {
-    height: 30%;
-    width: 30%;
-    margin: 0 auto;
-}
 
 #carousel-1 img {
-    filter: blur(5px);
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
 }
+

@@ -20,7 +20,11 @@
 
 /*iphone 7*/
 /*landscape*/
-@media only screen and (min-device-width: 750px) and (max-device-width: 1334px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen 
+and (min-device-width: 750px) 
+and (max-device-width: 1334px) 
+and (-webkit-min-device-pixel-ratio: 2) 
+and (orientation: landscape) {
   #counter {
     padding: 10px 0;
   }
@@ -38,7 +42,11 @@
 
 }
 /*portrait*/
-@media only screen and (min-device-width: 750px) and (max-device-width: 1334px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen 
+and (min-device-width: 750px) 
+and (max-device-width: 1334px) 
+and (-webkit-min-device-pixel-ratio: 2) 
+and (orientation: portrait) {
   #counter {
     padding: 40px 0;
   }
@@ -81,8 +89,15 @@
 
 }
 footer .container{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100%;
 }
