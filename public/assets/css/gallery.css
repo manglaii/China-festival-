@@ -316,6 +316,10 @@
         width: 40%;
         margin: 0 auto;
     }
+    #sponsor .item:nth-child(2) img{
+        height: 25%;
+        width: 25%;
+    }
     #video-caption {
         font-size: 1.7em;
         top: 15%;
@@ -342,6 +346,7 @@
     #sponsor {
         padding: 50px 0;
     }
+
     #overview {
         padding-top: 50px;
     }
