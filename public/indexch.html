@@ -33,7 +33,7 @@
                     <li role="presentation"><a href="#event">节目 </a></li>
                     <li role="presentation"><a href="#map">联系我们 </a></li>
                     <li role="presentation"><a href="#sponsor">赞助商 </a></li>
-                    <li role="presentation"><a href="index.html">英语 </a></li>
+                    <li role="presentation"><a href="index.html">English </a></li>
                 </ul>
             </div>
         </div>
@@ -56,6 +56,25 @@
             </div>
         </div>
     </section>
+            <!-- counter section -->
+    <section id="counter">
+        <div class="container">
+            <div class="text-center">
+                <div class="col-md-12">
+                    <div class="col-sm-6 counter-wrap">
+                        <strong><span id="days" class="timer">0</span></strong>
+                        <span class="count-description">Day</span>
+                    </div>
+                    <!-- /.col-sm-3 -->
+                    <div class="col-sm-6 counter-wrap">
+                        <strong><span id="hours" class="timer">0</span></strong>
+                        <span class="count-description">Hours</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- overview section -->
     <section id="overview">
         <div>
@@ -180,12 +199,12 @@
                         <span class="bg-primary">Limassol Marina St 3601, Limassol, Cyprus</span>
                     </div>
                     <h3 class="text-center">联系</h3>
-                    <div class="text-center"><span class="bg-primary">联系人: 邢蓉畅</div>
+                    <div class="text-center"><span class="bg-primary">邢蓉畅</div>
                     <div class="text-center"><span class="bg-primary">电话: +35799367010</span></div>
                     <div class="text-center"><span class="bg-primary">邮件: cc-ecea@outlook.com </span></div>
                     <div class="text-center"><span class="bg-primary">负责人 王院长</span></div>
                     <div class="text-center"><span class="bg-primary">电话: 22895125/22895123</span></div>
-                    <div class="text-center"><span class="bg-primary">Email: confucius@ucy.ac.cy </span></div>
+                    <div class="text-center"><span class="bg-primary">Email: info@ccecea.org</span></div>
                 </div>
             </div>
         </div>
@@ -193,18 +212,6 @@
     <!-- Our Sponsor -->
     <section id="sponsor" class="our-clients content-section text-center" style="background-color:#B0C4DE">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>我们的赞助商</h2>
-                    <h4 class="caption white">非常感谢我们的赞助商慷慨的支持</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="item col-xs-10 col-sm-10 col-md-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1">
-                    <h2>赞助商</h2>
-                    <h4 class="caption white">忠心感谢我们的赞助商及他们慷慨的支持</h4>
-                </div>
-            </div>
             <div class="row">
                 <div class="item col-xs-10 col-sm-10 col-md-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 ">
                     <h3>组织者</h3>
@@ -255,8 +262,8 @@
     <script>
     function initMap() {
         var uluru = {
-            lat: 34.669727,
-            lng: 33.039773
+            lat: 34.671146,
+            lng: 33.043200
             };
         var map = new google.maps.Map(document.getElementById('myMap'), {
             zoom: 15,

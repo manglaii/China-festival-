@@ -353,6 +353,13 @@
     #myMap {
         height: 350px;
     }
+    .nav.navbar-nav.navbar-right > li:last-child {
+        padding-left: 20px;
+    }
+
+    #gallery {
+        padding-top: 5%;
+    }
 }
 
 .photo-gallery .intro {
