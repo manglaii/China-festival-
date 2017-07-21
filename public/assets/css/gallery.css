@@ -316,6 +316,11 @@
         width: 40%;
         margin: 0 auto;
     }
+
+    #organization img {
+        width: 100%;
+    }
+
     #sponsor .item:nth-child(2) img{
         height: 25%;
         width: 25%;
