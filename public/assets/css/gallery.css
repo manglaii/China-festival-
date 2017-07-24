@@ -319,15 +319,23 @@
 
     #organization img {
         width: 100%;
+    } 
+	
+	#special img {
+        width: 100%;
     }
 
     #sponsor .item:nth-child(2) img{
-        height: 25%;
-        width: 25%;
+        height: 100%;
+        width: 100%;
+    }
+	#sponsor .item:nth-child(3) img{
+        height: 50%;
+        width: 50%;
     }
     #video-caption {
         font-size: 1.7em;
-        top: 15%;
+        top: 18%;
     }
     .photo-gallery .item {
         height: 259px;
@@ -337,7 +345,7 @@
         height: 529px;
     }
     #video {
-        margin-top: -3vh;
+        margin-top: -4vw;
     }
     footer h2 {
         font-size: 3em;
