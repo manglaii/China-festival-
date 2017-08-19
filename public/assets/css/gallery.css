@@ -333,6 +333,11 @@
         height: 100%;
         width: 100%;
     }
+
+    #sponsors > a > img {
+        height:  40% !important;
+        width:  40% !important;
+    }
     #video-caption {
         font-size: 1.7em;
         top: 18%;
