@@ -313,31 +313,28 @@
     }
     #sponsor img {
         height: 40%;
-        width: 38%;
+        width: 100%;
         margin: 0 auto;
+		    margin-top: 20px;
+    margin-bottom: 20px;
     }
-	#limassol img {
-        height: 40%;
-        width: 40%;
-      
-    }
-    #ccecea img {
-        width: 97%;
-    } 
-	#confucius img {
-        width: 97%;
-    } 
+	
+	
 	#special img {
         width: 100%;
     }
-
-    #sponsor .item:nth-child(2) img{
-        height: 70%;
-        width: 70%;
+#sponsor .item:nth-child(2) img{
+        height: 50%;
+        width: 50%;
+		 margin-top: 20px;
+    margin-bottom: 20px;
     }
+   
 	#sponsor .item:nth-child(3) img{
-        height: 40%;
-        width: 40%;
+        height: 70%;
+        width: 70%;    
+		margin-top: 20px;
+    margin-bottom: 20px;
     }
 
     #sponsors > a > img {
@@ -385,7 +382,19 @@
         padding-top: 5%;
     }
 }
-
+	#taoyi img {
+        width: 40%;
+		height: 40%;
+    } 
+	
+	#zaran img {
+        width: 50%;
+		height: 50%;
+    } 
+	#wei img {
+        width: 50%;
+		height: 50%;
+    } 
 .photo-gallery .intro {
     font-size: 16px;
     max-width: 500px;
